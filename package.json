@@ -9,5 +9,17 @@
         "ecosystem:cordova"
     ],
     "license": "ISC",
-    "displayName": "MobileApp"
+    "displayName": "MobileApp",
+    "dependencies": {
+        "cordova-android": "^7.0.0",
+        "cordova-plugin-whitelist": "^1.3.3"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    }
 }
